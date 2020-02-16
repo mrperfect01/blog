@@ -24,8 +24,8 @@ class BlogController extends Controller
      */
     public function create()
     {
-        return view(view: 'hello');
-
+//        return view(view: 'hello');
+        return view('hello');
     }
 
     /**
