@@ -12,9 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view(view: 'Welcome');
+    //return view(view: 'Welcome');
+    return view('Welcome');
 });
-
 Route:: get('hello','BlogController@create');
 
 
